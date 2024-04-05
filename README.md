@@ -54,8 +54,8 @@ All used assets will be highlighted below:
 
 ## Usage
 
-    - The portfolio is hosted on https://zchristensen01.github.io/A3-zc675913/
-    - To view the portfolio, head to https://zchristensen01.github.io/A3-zc675913/
+    - The portfolio is hosted on https://zchristensen01.github.io
+    - To view the portfolio, head to https://zchristensen01.github.io
     - The project is designed to be responsive, providing a seamless experience on different devices.
 
 ## Credits - in ACM format
