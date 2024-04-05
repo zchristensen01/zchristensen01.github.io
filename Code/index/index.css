@@ -62,12 +62,12 @@ header ul a {
     padding: 0 2vw;
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     text-shadow: 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.301);
 }
 
 .insta a {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     padding: 2vw;
 }
 
@@ -85,12 +85,13 @@ main {
 }
 
 #content {
-    height: 2000px;
+    height: 200%;
     position: relative;
 }
 
 #sliding-image {
     position: absolute;
+    width: 30vw;
     bottom: -150%;
     left: 50vw;
     transform: translateX(-50%);
@@ -101,10 +102,128 @@ main {
 #sliding-text {
     color: azure;
     position: absolute;
-    bottom: -190%;
+    bottom: -210%;
     line-height: 200%;
+    font-size: 30px;
     left: 50vw;
+    width: 100%;
     transform: translateX(-50%);
     transition: left 1s ease;
     text-align: center;
 }
+
+#filler {
+  height: 500px;
+}
+
+@media only screen and (max-width: 1300px) {
+    header ul a {
+      font-size: 2.5vw;
+      padding: -20%;
+      min-width: 3vw;
+    }
+  
+    .logo {
+      width: 10%; 
+    }
+
+    #content {
+      height: 300%;
+    }
+
+    #sliding-image {
+      width: 30vw;
+      bottom: -70%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    #sliding-text {
+      font-size: 2vw;
+      bottom: -150%;
+      padding-bottom: 20%;
+      padding-left: 0;
+      width: 70vw;
+    }
+    
+    .insta a {
+        font-size: 2.3vw;
+        padding: 2vw;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    header ul a {
+      font-size: 4vw;
+      padding: -20%;
+      min-width: 3vw;
+    }
+  
+    #content {
+      height: 150%;
+    }
+
+    .logo {
+      width: 50%; 
+    }
+  
+    #sliding-image {
+      width: 50vw;
+      bottom: -220px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    #sliding-text {
+      font-size: 3vw;
+      bottom: -150%;
+      padding-bottom: 20%;
+    }
+
+    #filler {
+      height: 700px;
+    }
+
+    .insta a {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+  }
+
+@media only screen and (max-width: 426px) {
+    header ul a {
+      font-size: 4vw;
+      padding: -20%;
+      min-width: 3vw;
+    }
+  
+    #content {
+      height: 150%;
+    }
+
+    .logo {
+      width: 50%; 
+    }
+  
+    #sliding-image {
+      width: 50vw;
+      bottom: 0%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    #sliding-text {
+      font-size: 3vw;
+      bottom: -60%;
+      padding-bottom: 20%;
+    }
+
+    .insta a {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+  }
+
+
+
+  

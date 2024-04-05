@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("DOMContentLoaded event triggered");
 
     if ("Notification" in window) {    
         Notification.requestPermission().then(function(permission) {

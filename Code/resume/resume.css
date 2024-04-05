@@ -118,7 +118,7 @@ header ul a {
 }
 
 .insta a {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     padding: 2vw;
 }
 
@@ -253,3 +253,41 @@ h2 {
     font-style: italic;
     color: var(--italic-color);
 }
+
+@media only screen and (max-width: 1300px) {
+    header ul a {
+      font-size: 2.3vw;
+      padding: -20%;
+      min-width: 3vw;
+    }
+  
+    .logo {
+      width: 10%; 
+    }
+    
+    .insta a {
+        font-size: 2.3vw;
+        padding: 2vw;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    header ul a {
+      font-size: 4vw;
+      padding: -20%;
+      min-width: 3vw;
+    }
+  
+    .logo {
+      width: 50%; 
+    }
+
+    .insta a {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+
+    body {
+        padding-top: 10%;
+    }
+  }
