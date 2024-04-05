@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: hsla(0, 0%, 100%, 0.103);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 100%, 0.26);
+    border-radius: 6px;
+}
+
+.logo {
+    width: 2.5vw;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 0.8vw;
+    margin-top: 0.3%;
+    top: 0;
+    left: 0;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0 2vw;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2vw;
+    text-shadow: 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.301);
+}
+
+.insta a {
+    font-size: 1.2vw;
+    padding: 2vw;
+}
+
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-X: hidden;
+    background-color: #000000;
+}
+
+.index {
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    height: 2000px;
+    position: relative;
+}
+
+#sliding-image {
+    position: absolute;
+    bottom: -150%;
+    left: 50vw;
+    transform: translateX(-50%);
+    transition: left 1s ease;
+    border-radius: 3%;
+}
+
+#sliding-text {
+    color: azure;
+    position: absolute;
+    bottom: -190%;
+    line-height: 200%;
+    left: 50vw;
+    transform: translateX(-50%);
+    transition: left 1s ease;
+    text-align: center;
+}
